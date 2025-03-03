@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'SosGro_U';
+    src: url('SosGro_U.woff2') format('woff2'),
+        url('SosGro_U.woff') format('woff'),
+        url('SosGro_U.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

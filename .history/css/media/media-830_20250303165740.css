@@ -1,0 +1,26 @@
+.welcome{
+    .welcome_content{
+        grid-template-columns: 1fr;
+    }
+}
+
+.menu{
+    .menu_content{
+        .menu_img_box{
+            .menu_list{
+            grid-template-columns: repeat(2,auto);
+                padding: var(--spacing-xxl) 0;
+            }
+        }
+    }
+}
+
+.footer{
+    .footer_content{
+        .main_footer{
+            
+        }
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+}

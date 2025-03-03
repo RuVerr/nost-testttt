@@ -1,0 +1,27 @@
+@keyframes carouselNext {
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes carouselBack {
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+.carouselNext{
+    animation: carouselNext 2s ease-out forwards;
+}
+
+.carouselBack{
+    animation: carouselBack 2s ease-out forwards;
+}
