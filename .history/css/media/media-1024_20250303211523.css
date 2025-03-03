@@ -1,3 +1,5 @@
+
+
 .header .header_content .nav {
     grid-template-columns: minmax(100px, 1fr) 4fr 50px;
     justify-items: center;
