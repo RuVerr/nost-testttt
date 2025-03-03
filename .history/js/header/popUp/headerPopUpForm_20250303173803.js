@@ -82,7 +82,7 @@ export default class HeaderPopUpForm {
       "animationend",
       () => {
         this.removePopUpFromDOM();
-        this.body.style.overflow = ""
+        this.body.style.overflow = "visible"
       },
       { once: true }
     );

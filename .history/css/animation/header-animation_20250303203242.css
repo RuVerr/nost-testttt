@@ -1,3 +1,215 @@
+/* @keyframes active {
+    0%{
+        transform: translate(0);
+    }
+
+    100%{
+        transform: translate(-178px);
+
+    }
+    
+}
+
+@keyframes off {
+    0%{
+        transform: translate(-178px);
+    }
+
+    100%{
+        transform: translate(65px);
+
+    }
+}
+
+#slideContentID {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.slide_content_active {
+    animation-name: active;
+}
+
+.slide_content_off {
+    animation-name: off;
+}
+
+
+@keyframes line1-AnimationStart {
+   0%{
+    transform: translateY(0);
+   }
+
+   100%{
+    transform: translateY(11px) rotate(40deg);
+
+   }
+}
+
+@keyframes line1-AnimationEnd {
+    0%{
+        transform: translateY(11px) rotate(40deg)
+    }
+    
+    100%{
+    transform: translateY(0) rotate(0);
+
+    }
+}
+
+
+@keyframes line2-AnimationStart {
+    0%{
+        width: 100%;
+        transform: translate(0,0);
+    }
+    
+    100%{
+        width: 0;
+        transform: translate(21px,0);
+        
+    }
+}
+
+@keyframes line2-AnimationEnd {
+    0%{
+        width: 0;
+        transform: translate(20px,0);
+    }
+
+    100%{
+        width: 100%;
+        transform: translate(0,0);
+    }
+    
+}
+
+
+@keyframes line3-AnimationStart {
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(-11px) rotate(-40deg);
+    }
+}
+
+@keyframes line3-AnimationEnd {
+    0%{
+        transform: translateY(-11px) rotate(-40deg);
+    }
+
+    100%{
+        transform: translateY(0) rotate(0);
+    }
+}
+
+.burger_line{
+    animation-duration: 0.3s;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+.burger-anim-start:nth-child(1){
+    animation-name: line1-AnimationStart;
+}
+.burger-anim-end:nth-child(1){
+    animation-name: line1-AnimationEnd;
+}
+
+.burger-anim-start:nth-child(2){
+    animation-name: line2-AnimationStart;
+}
+
+.burger-anim-end:nth-child(2){
+    animation-name: line2-AnimationEnd;
+}
+
+.burger-anim-start:nth-child(3){
+    animation-name: line3-AnimationStart;
+}
+
+.burger-anim-end:nth-child(3){
+    animation-name: line3-AnimationEnd;
+}
+
+.overlay_active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150vh;
+    background-color: #00000063;
+    z-index: 6;
+    opacity: 1;
+    visibility: visible;
+    transition: var(--transition-slow);
+}
+
+.overlay_off{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150vh;
+    background-color: #00000063;
+    z-index: 6;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition-slow);
+}
+
+@keyframes popUpAnim-active{
+    0%{
+        transform: translate(-50%, -129%);
+    }
+
+    100%{
+        transform: translate(-50%, 14%);
+    }
+}
+
+@keyframes popUpAnim-off{
+    0%{
+        transform: translate(-50%, 14%);
+    }
+    
+    100%{
+        transform: translate(-50%, -129%);
+    }
+}
+
+.header_form_content_popup{
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.popUpAnim-active{
+    animation-name: popUpAnim-active;
+}
+
+.popUpAnim-off{
+    animation-name: popUpAnim-off;
+}
+
+.submit_button {
+    &.loading {
+        .button_text {
+            visibility: hidden !important;
+        }
+        .spinner {
+            display: block !important;
+        }
+    }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+} */
+
+/* Активация слайда______________________*/
 @keyframes active {
     0% {
         transform: translate(0);
@@ -113,7 +325,7 @@
     left: 0;
     width: 100%;
     height: 150vh;
-    background-color: #00000048;
+    background-color: #000 63;
     z-index: 6;
     opacity: 1;
     visibility: visible;
@@ -125,7 +337,7 @@
     left: 0;
     width: 100%;
     height: 150vh;
-    background-color: #00000048;
+    background-color: #000 63;
     z-index: 6;
     opacity: 0;
     visibility: hidden;

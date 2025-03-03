@@ -1,6 +1,6 @@
 export default class FormHandler {
   constructor() {
-    this.body = document.body
+    this.body = document
     this.form = document.getElementById("telegram_formId");
     this.userTel = document.getElementById("userTel");
     this.uName = document.getElementById("uName");
@@ -114,7 +114,7 @@ export default class FormHandler {
         () => {
           this.overlayHeaderPopup.remove();
           this.headerPopUpForm.remove();
-          this.body.style.overflow = ""
+
         },
         { once: true }
       );

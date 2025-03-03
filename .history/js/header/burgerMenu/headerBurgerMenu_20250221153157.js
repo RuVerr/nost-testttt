@@ -68,7 +68,7 @@ export default class HeaderBurgerMenu {
     this.originalSlideContent.addEventListener(
       "animationend",
       () => {
-        this.body.style.overflow = ""; // Включаем прокрутку страницы
+        this.body.style.overflow = "visible"; // Включаем прокрутку страницы
         this.originalSlideContent.remove();
         this.originalOverlay.remove();
       },

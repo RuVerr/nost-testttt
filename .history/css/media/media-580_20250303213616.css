@@ -1,4 +1,4 @@
-.menu_list {
+.menu .menu_content .menu_img_box .menu_list {
     grid-template-columns: repeat(1, auto);
     padding: var(--spacing-xxl) 0;
 }

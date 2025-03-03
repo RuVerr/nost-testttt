@@ -1,12 +1,11 @@
 .header .header_content .nav .header_form_content_popup{
-    /* top: -101px; */
+    top: -55%;
     width: 100%;
-    /* height: 100vh; */
-    gap: 10px;
+    height: 100vh;
 }
 
-.header .header_content .nav .header_form_content_popup .input{
-    width: var(--width-xl);
+.input{
+    width: var(--);
 }
 .welcome .welcome_content {
     grid-template-columns: 1fr;

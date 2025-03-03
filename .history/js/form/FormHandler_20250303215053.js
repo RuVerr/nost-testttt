@@ -114,7 +114,7 @@ export default class FormHandler {
         () => {
           this.overlayHeaderPopup.remove();
           this.headerPopUpForm.remove();
-          this.body.style.overflow = ""
+
         },
         { once: true }
       );

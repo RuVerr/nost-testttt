@@ -33,9 +33,9 @@ export default class HeaderBurgerMenu {
 
       this.originalSlideContent.addEventListener(
         "animationend",
-        () => {
+       ` () => {
           animationProcessing = false; // Сбрасываем флаг анимации после завершения
-        },
+        },`
         { once: true }
       );
     });
