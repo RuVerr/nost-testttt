@@ -1,8 +1,6 @@
 @font-face {
     font-family: "SosGro_U";
-    src: url('../fonts/SosGro/SosGro_U.woff2') format('woff2'),
-        url('../fonts/SosGro/SosGro_U.woff') format('woff'),
-        url('../fonts/SosGro/SosGro_U.ttf') format('truetype');
+    src: url('../fonts/ArianAMUSerif/arnamu_serif.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
