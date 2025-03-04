@@ -1,4 +1,8 @@
-.menu_list {
+.menu .menu_content .menu_img_box .menu_list {
     grid-template-columns: repeat(1, auto);
     padding: var(--spacing-xxl) 0;
+}
+
+.header .header_content .nav .header_form_content_popup {
+    top: -10%;
 }

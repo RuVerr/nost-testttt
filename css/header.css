@@ -53,7 +53,7 @@
 .header .header_content .nav .header_form_content_popup {
     display: grid;
     position: absolute;
-    top: 50%;
+    top: 21%;
     left: 50%;
     z-index: 8;
     transform: translate(-50%, -129%);
@@ -71,11 +71,24 @@
 }
 .header .header_content .nav .header_form_content_popup .telegram_form {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
     place-content: center;
     padding: var(--padding-lg);
     gap: 30px;
 }
+
+.telegram_info_form{
+    color: #fff;
+    max-width: 286px;
+}
+
+.telegram_info_form .popup_title{
+    font-size: var(--font-xl);
+}
+
+.telegram_info_form .popup_p{
+    font-size: var(--font-xs);
+}
+
 .header .header_content .nav .header_form_content_popup .input {
     width: var(--width-sm);
     height: var(--height-md);
@@ -92,7 +105,7 @@
     -webkit-appearance: none;
 }
 .header .header_content .nav .header_form_content_popup .input_label {
-    top: 23px;
+    top: 18px;
     left: 14px;
     display: grid;
     white-space: nowrap;
@@ -103,7 +116,7 @@
     transition: 0.3s ease-in;
 }
 .header .header_content .nav .header_form_content_popup .input:focus + label, .header .header_content .nav .header_form_content_popup .input:not(:placeholder-shown) + .input_label {
-    top: -20px;
+    top: -30px;
 }
 .header .header_content .nav .header_form_content_popup .submit_button {
     position: relative;
@@ -119,7 +132,7 @@
 .header .header_content .nav .header_form_content_popup .submit_button .spinner {
     position: absolute;
     top: 10px;
-    left: 148px;
+    left: 45%;
     display: none;
     border: 2px solid #fff;
     border-top: 2px solid transparent;

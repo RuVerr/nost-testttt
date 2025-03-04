@@ -1,7 +1,5 @@
 .header .header_content .nav .header_form_content_popup{
-    /* top: -101px; */
     width: 100%;
-    /* height: 100vh; */
     gap: 10px;
 }
 
@@ -14,6 +12,7 @@
 .menu .menu_content .menu_img_box .menu_list {
     grid-template-columns: repeat(2, auto);
     padding: var(--spacing-xxl) 0;
+    row-gap: var(--gap-xl);
 }
 .footer .footer_content .main_footer_content {
     grid-template-columns: repeat(1, 1fr);

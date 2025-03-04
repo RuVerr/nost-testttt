@@ -33,7 +33,7 @@ export default class IntroCarousel {
   startAutoSlide() {
     this.autoSlide = setInterval(() => {
       this.moveNext();
-    }, 4000);
+    }, 2000);
   }
 
   // Метод для остановки автопрокрутки

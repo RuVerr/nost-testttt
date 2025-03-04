@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     new headerModules.headerBurgerMenu()
     new headerPopUpFormModules.headerPopUpForm()
     new introCarousel.introCarousel()
-    
+
     globalFunction.lineAnimBurgerMenu(document.querySelectorAll(".line_burger"));
 });

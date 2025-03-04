@@ -147,6 +147,16 @@
         transform: translate(-50%, -129%);
    }
 }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(360deg);
+   }
+}
+
 .header_form_content_popup {
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -162,12 +172,4 @@
 }
 .submit_button.loading .spinner {
     display: block !important;
-}
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-   }
-    100% {
-        transform: rotate(360deg);
-   }
 }
